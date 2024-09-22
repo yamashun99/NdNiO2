@@ -1,0 +1,908 @@
+nohup: ignoring input
+Starting serial run at: 2024-09-19 22:39:03.713929
+/home/yamamoto/apps/triqs/triqs.build/lib/python3.10/site-packages/triqs_dft_tools/sumk_dft.py:884: UserWarning: WARNING: No density matrix given. Calculating density matrix with default parameters. This will be deprecated in future releases.
+  warn("WARNING: No density matrix given. Calculating density matrix with default parameters. This will be deprecated in future releases.")
+/home/yamamoto/apps/triqs/triqs.build/lib/python3.10/site-packages/triqs_dft_tools/sumk_dft.py:1565: UserWarning: WARNING: density_matrix: method 'using_gf' is deprecated. Use 'extract_G_loc' instead.
+  warn("WARNING: density_matrix: method 'using_gf' is deprecated. Use 'extract_G_loc' instead.")
+Warning: could not identify MPI environment!
+Warning: No Sigma set but parameter with_Sigma=True, calculating Gloc without Sigma.
+2024-09-19 22:42:09.427473
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 958.8034539822708
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   2.30416545e+04, n_iter=     110 
+alpha[ 1] =   6.31323628e+04, chi2 =   1.14389313e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   5.75725225e+03, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   3.18877155e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   2.06489937e+03, n_iter=       5 
+alpha[ 5] =   4.83332200e+03, chi2 =   1.56352667e+03, n_iter=       5 
+alpha[ 6] =   2.54240158e+03, chi2 =   1.32398165e+03, n_iter=       7 
+alpha[ 7] =   1.33734227e+03, chi2 =   1.20224644e+03, n_iter=       9 
+alpha[ 8] =   7.03462567e+02, chi2 =   1.14025119e+03, n_iter=      10 
+alpha[ 9] =   3.70032112e+02, chi2 =   1.10993446e+03, n_iter=      12 
+alpha[10] =   1.94642572e+02, chi2 =   1.09585342e+03, n_iter=      14 
+alpha[11] =   1.02384982e+02, chi2 =   1.08939383e+03, n_iter=      17 
+alpha[12] =   5.38560724e+01, chi2 =   1.08596182e+03, n_iter=      27 
+alpha[13] =   2.83291210e+01, chi2 =   1.08351677e+03, n_iter=      45 
+alpha[14] =   1.49015526e+01, chi2 =   1.08142032e+03, n_iter=      71 
+alpha[15] =   7.83844547e+00, chi2 =   1.07959973e+03, n_iter=     102 
+alpha[16] =   4.12314267e+00, chi2 =   1.07817671e+03, n_iter=     144 
+alpha[17] =   2.16883635e+00, chi2 =   1.07720256e+03, n_iter=     191 
+alpha[18] =   1.14084122e+00, chi2 =   1.07659850e+03, n_iter=     245 
+alpha[19] =   6.00100000e-01, chi2 =   1.07623315e+03, n_iter=     334 
+MaxEnt loop finished in 0:03:29.361185
+2024-09-19 22:49:02.379632
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 193.1480027141502
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   3.06926734e+04, n_iter=      44 
+alpha[ 1] =   6.31323628e+04, chi2 =   1.25735786e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   5.05246512e+03, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   2.10345421e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   9.88806820e+02, n_iter=       5 
+alpha[ 5] =   4.83332200e+03, chi2 =   5.79450702e+02, n_iter=       5 
+alpha[ 6] =   2.54240158e+03, chi2 =   4.33308566e+02, n_iter=       4 
+alpha[ 7] =   1.33734227e+03, chi2 =   3.82416155e+02, n_iter=       4 
+alpha[ 8] =   7.03462567e+02, chi2 =   3.64711876e+02, n_iter=       4 
+alpha[ 9] =   3.70032112e+02, chi2 =   3.57887483e+02, n_iter=       5 
+alpha[10] =   1.94642572e+02, chi2 =   3.54237398e+02, n_iter=      10 
+alpha[11] =   1.02384982e+02, chi2 =   3.51468558e+02, n_iter=      15 
+alpha[12] =   5.38560724e+01, chi2 =   3.49263349e+02, n_iter=      22 
+alpha[13] =   2.83291210e+01, chi2 =   3.47675421e+02, n_iter=      28 
+alpha[14] =   1.49015526e+01, chi2 =   3.46602851e+02, n_iter=      34 
+alpha[15] =   7.83844547e+00, chi2 =   3.45886873e+02, n_iter=      43 
+alpha[16] =   4.12314267e+00, chi2 =   3.45392464e+02, n_iter=      59 
+alpha[17] =   2.16883635e+00, chi2 =   3.45033519e+02, n_iter=      96 
+alpha[18] =   1.14084122e+00, chi2 =   3.44765565e+02, n_iter=     184 
+alpha[19] =   6.00100000e-01, chi2 =   3.44572119e+02, n_iter=     216 
+MaxEnt loop finished in 0:02:07.109579
+2024-09-19 22:54:35.300124
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 5.705488984566787e-07
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   3.78882031e+04, n_iter=      59 
+alpha[ 1] =   6.31323628e+04, chi2 =   1.39747920e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   4.98719363e+03, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   1.78894331e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   6.72285318e+02, n_iter=       5 
+alpha[ 5] =   4.83332200e+03, chi2 =   2.72775265e+02, n_iter=       5 
+alpha[ 6] =   2.54240158e+03, chi2 =   1.21355921e+02, n_iter=       5 
+alpha[ 7] =   1.33734227e+03, chi2 =   5.95442133e+01, n_iter=       5 
+alpha[ 8] =   7.03462567e+02, chi2 =   3.20430265e+01, n_iter=       8 
+alpha[ 9] =   3.70032112e+02, chi2 =   1.85493311e+01, n_iter=      11 
+alpha[10] =   1.94642572e+02, chi2 =   1.11996569e+01, n_iter=      16 
+alpha[11] =   1.02384982e+02, chi2 =   6.81085359e+00, n_iter=      22 
+alpha[12] =   5.38560724e+01, chi2 =   4.03206079e+00, n_iter=      30 
+alpha[13] =   2.83291210e+01, chi2 =   2.25777221e+00, n_iter=      40 
+alpha[14] =   1.49015526e+01, chi2 =   1.18019089e+00, n_iter=      52 
+alpha[15] =   7.83844547e+00, chi2 =   5.82728388e-01, n_iter=      65 
+alpha[16] =   4.12314267e+00, chi2 =   2.72582011e-01, n_iter=     176 
+alpha[17] =   2.16883635e+00, chi2 =   1.12323870e-01, n_iter=     127 
+alpha[18] =   1.14084122e+00, chi2 =   4.33584218e-02, n_iter=     133 
+alpha[19] =   6.00100000e-01, chi2 =   1.61096465e-02, n_iter=     123 
+MaxEnt loop finished in 0:02:23.878729
+2024-09-19 23:00:21.252198
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 5.580419550971171e-07
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   3.78872095e+04, n_iter=      59 
+alpha[ 1] =   6.31323628e+04, chi2 =   1.39744212e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   4.98706298e+03, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   1.78888897e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   6.72256568e+02, n_iter=       5 
+alpha[ 5] =   4.83332200e+03, chi2 =   2.72759649e+02, n_iter=       5 
+alpha[ 6] =   2.54240158e+03, chi2 =   1.21347552e+02, n_iter=       5 
+alpha[ 7] =   1.33734227e+03, chi2 =   5.95384090e+01, n_iter=       5 
+alpha[ 8] =   7.03462567e+02, chi2 =   3.20376542e+01, n_iter=       8 
+alpha[ 9] =   3.70032112e+02, chi2 =   1.85442904e+01, n_iter=      10 
+alpha[10] =   1.94642572e+02, chi2 =   1.11954219e+01, n_iter=      15 
+alpha[11] =   1.02384982e+02, chi2 =   6.80777120e+00, n_iter=      23 
+alpha[12] =   5.38560724e+01, chi2 =   4.03024248e+00, n_iter=      31 
+alpha[13] =   2.83291210e+01, chi2 =   2.25713175e+00, n_iter=      40 
+alpha[14] =   1.49015526e+01, chi2 =   1.18047186e+00, n_iter=      52 
+alpha[15] =   7.83844547e+00, chi2 =   5.83534164e-01, n_iter=      65 
+alpha[16] =   4.12314267e+00, chi2 =   2.72638302e-01, n_iter=     176 
+alpha[17] =   2.16883635e+00, chi2 =   1.12331956e-01, n_iter=     124 
+alpha[18] =   1.14084122e+00, chi2 =   4.33580634e-02, n_iter=     132 
+alpha[19] =   6.00100000e-01, chi2 =   1.61073661e-02, n_iter=     122 
+MaxEnt loop finished in 0:02:21.942144
+2024-09-19 23:06:08.412065
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 1.8433333365505551e-06
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   3.94851566e+04, n_iter=      56 
+alpha[ 1] =   6.31323628e+04, chi2 =   1.53808272e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   6.14319600e+03, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   2.64692959e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   1.23526970e+03, n_iter=       7 
+alpha[ 5] =   4.83332200e+03, chi2 =   5.92545314e+02, n_iter=       8 
+alpha[ 6] =   2.54240158e+03, chi2 =   2.78453262e+02, n_iter=       9 
+alpha[ 7] =   1.33734227e+03, chi2 =   1.28155795e+02, n_iter=       9 
+alpha[ 8] =   7.03462567e+02, chi2 =   5.93547620e+01, n_iter=      12 
+alpha[ 9] =   3.70032112e+02, chi2 =   2.74625309e+01, n_iter=      22 
+alpha[10] =   1.94642572e+02, chi2 =   1.22920342e+01, n_iter=      22 
+alpha[11] =   1.02384982e+02, chi2 =   5.39772600e+00, n_iter=      23 
+alpha[12] =   5.38560724e+01, chi2 =   2.35541866e+00, n_iter=      26 
+alpha[13] =   2.83291210e+01, chi2 =   1.02449897e+00, n_iter=      29 
+alpha[14] =   1.49015526e+01, chi2 =   4.41087529e-01, n_iter=      34 
+alpha[15] =   7.83844547e+00, chi2 =   1.87793764e-01, n_iter=      38 
+alpha[16] =   4.12314267e+00, chi2 =   7.95987532e-02, n_iter=      52 
+alpha[17] =   2.16883635e+00, chi2 =   3.32662598e-02, n_iter=      61 
+alpha[18] =   1.14084122e+00, chi2 =   1.37528339e-02, n_iter=      69 
+alpha[19] =   6.00100000e-01, chi2 =   5.65354974e-03, n_iter=      75 
+MaxEnt loop finished in 0:01:37.156935
+2024-09-19 23:11:07.490138
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 0.0013033661756679837
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   3.49492350e+04, n_iter=      89 
+alpha[ 1] =   6.31323628e+04, chi2 =   1.49376452e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   6.49033405e+03, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   2.92452865e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   1.33987909e+03, n_iter=       5 
+alpha[ 5] =   4.83332200e+03, chi2 =   6.02381368e+02, n_iter=       9 
+alpha[ 6] =   2.54240158e+03, chi2 =   2.61104035e+02, n_iter=      11 
+alpha[ 7] =   1.33734227e+03, chi2 =   1.10150288e+02, n_iter=      13 
+alpha[ 8] =   7.03462567e+02, chi2 =   4.66220072e+01, n_iter=      14 
+alpha[ 9] =   3.70032112e+02, chi2 =   2.04624634e+01, n_iter=      15 
+alpha[10] =   1.94642572e+02, chi2 =   9.45228060e+00, n_iter=      16 
+alpha[11] =   1.02384982e+02, chi2 =   4.58129916e+00, n_iter=      19 
+alpha[12] =   5.38560724e+01, chi2 =   2.31573661e+00, n_iter=      24 
+alpha[13] =   2.83291210e+01, chi2 =   1.22257099e+00, n_iter=      30 
+alpha[14] =   1.49015526e+01, chi2 =   6.73559469e-01, n_iter=      37 
+alpha[15] =   7.83844547e+00, chi2 =   3.76590463e-01, n_iter=      45 
+alpha[16] =   4.12314267e+00, chi2 =   2.02210395e-01, n_iter=      61 
+alpha[17] =   2.16883635e+00, chi2 =   9.92780508e-02, n_iter=      79 
+alpha[18] =   1.14084122e+00, chi2 =   4.40115377e-02, n_iter=      99 
+alpha[19] =   6.00100000e-01, chi2 =   1.82865107e-02, n_iter=     118 
+MaxEnt loop finished in 0:01:55.367380
+2024-09-19 23:16:28.071017
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 0.0013417741982229517
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   5.51287092e+04, n_iter=      49 
+alpha[ 1] =   6.31323628e+04, chi2 =   2.66516911e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   1.21747315e+04, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   5.27392809e+03, n_iter=       8 
+alpha[ 4] =   9.18855687e+03, chi2 =   2.18395953e+03, n_iter=       9 
+alpha[ 5] =   4.83332200e+03, chi2 =   8.82156156e+02, n_iter=      10 
+alpha[ 6] =   2.54240158e+03, chi2 =   3.63134033e+02, n_iter=      10 
+alpha[ 7] =   1.33734227e+03, chi2 =   1.62512379e+02, n_iter=      12 
+alpha[ 8] =   7.03462567e+02, chi2 =   8.23843501e+01, n_iter=      14 
+alpha[ 9] =   3.70032112e+02, chi2 =   4.60450510e+01, n_iter=      17 
+alpha[10] =   1.94642572e+02, chi2 =   2.65232371e+01, n_iter=      22 
+alpha[11] =   1.02384982e+02, chi2 =   1.48836020e+01, n_iter=      29 
+alpha[12] =   5.38560724e+01, chi2 =   7.89751374e+00, n_iter=      37 
+alpha[13] =   2.83291210e+01, chi2 =   3.92633068e+00, n_iter=      49 
+alpha[14] =   1.49015526e+01, chi2 =   1.83056949e+00, n_iter=      62 
+alpha[15] =   7.83844547e+00, chi2 =   8.00158983e-01, n_iter=      76 
+alpha[16] =   4.12314267e+00, chi2 =   3.26426635e-01, n_iter=      86 
+alpha[17] =   2.16883635e+00, chi2 =   1.24884536e-01, n_iter=      92 
+alpha[18] =   1.14084122e+00, chi2 =   4.65990958e-02, n_iter=      90 
+alpha[19] =   6.00100000e-01, chi2 =   1.87274929e-02, n_iter=      83 
+MaxEnt loop finished in 0:02:08.750099
+2024-09-19 23:21:59.216317
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 3.359997165638035e-05
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   4.87815132e+04, n_iter=      35 
+alpha[ 1] =   6.31323628e+04, chi2 =   2.68557773e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   1.44643431e+04, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   7.58273902e+03, n_iter=       8 
+alpha[ 4] =   9.18855687e+03, chi2 =   3.86555972e+03, n_iter=       9 
+alpha[ 5] =   4.83332200e+03, chi2 =   1.91729675e+03, n_iter=      11 
+alpha[ 6] =   2.54240158e+03, chi2 =   9.25348730e+02, n_iter=      13 
+alpha[ 7] =   1.33734227e+03, chi2 =   4.34237943e+02, n_iter=      15 
+alpha[ 8] =   7.03462567e+02, chi2 =   1.98306770e+02, n_iter=      18 
+alpha[ 9] =   3.70032112e+02, chi2 =   8.89423608e+01, n_iter=      20 
+alpha[10] =   1.94642572e+02, chi2 =   3.98763859e+01, n_iter=      23 
+alpha[11] =   1.02384982e+02, chi2 =   1.76846149e+01, n_iter=      55 
+alpha[12] =   5.38560724e+01, chi2 =   7.58067962e+00, n_iter=      40 
+alpha[13] =   2.83291210e+01, chi2 =   3.16900712e+00, n_iter=      39 
+alpha[14] =   1.49015526e+01, chi2 =   1.29847899e+00, n_iter=      44 
+alpha[15] =   7.83844547e+00, chi2 =   5.21873596e-01, n_iter=      52 
+alpha[16] =   4.12314267e+00, chi2 =   2.06320174e-01, n_iter=      63 
+alpha[17] =   2.16883635e+00, chi2 =   7.92383530e-02, n_iter=     210 
+alpha[18] =   1.14084122e+00, chi2 =   3.01314918e-02, n_iter=      90 
+alpha[19] =   6.00100000e-01, chi2 =   1.20499032e-02, n_iter=     119 
+MaxEnt loop finished in 0:02:23.975310
+2024-09-19 23:27:46.305545
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 9.423702005486976e-05
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   4.55607696e+04, n_iter=      35 
+alpha[ 1] =   6.31323628e+04, chi2 =   2.31945746e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   1.16038315e+04, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   5.67158519e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   2.69426821e+03, n_iter=       8 
+alpha[ 5] =   4.83332200e+03, chi2 =   1.24259906e+03, n_iter=      10 
+alpha[ 6] =   2.54240158e+03, chi2 =   5.54384522e+02, n_iter=      11 
+alpha[ 7] =   1.33734227e+03, chi2 =   2.37244556e+02, n_iter=      13 
+alpha[ 8] =   7.03462567e+02, chi2 =   9.62794942e+01, n_iter=      14 
+alpha[ 9] =   3.70032112e+02, chi2 =   3.67599836e+01, n_iter=      15 
+alpha[10] =   1.94642572e+02, chi2 =   1.32895032e+01, n_iter=      16 
+alpha[11] =   1.02384982e+02, chi2 =   4.67251609e+00, n_iter=      19 
+alpha[12] =   5.38560724e+01, chi2 =   1.65841653e+00, n_iter=      26 
+alpha[13] =   2.83291210e+01, chi2 =   6.10217516e-01, n_iter=      36 
+alpha[14] =   1.49015526e+01, chi2 =   2.44624951e-01, n_iter=      34 
+alpha[15] =   7.83844547e+00, chi2 =   1.14956461e-01, n_iter=      34 
+alpha[16] =   4.12314267e+00, chi2 =   6.42145159e-02, n_iter=      39 
+alpha[17] =   2.16883635e+00, chi2 =   4.02848638e-02, n_iter=      45 
+alpha[18] =   1.14084122e+00, chi2 =   2.65696969e-02, n_iter=      56 
+alpha[19] =   6.00100000e-01, chi2 =   1.77093812e-02, n_iter=      77 
+MaxEnt loop finished in 0:01:25.630283
+2024-09-19 23:32:38.331587
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 2.0410950331129722
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   3.87335264e+04, n_iter=      38 
+alpha[ 1] =   6.31323628e+04, chi2 =   2.05486374e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   1.04623453e+04, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   5.12909973e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   2.44838519e+03, n_iter=       7 
+alpha[ 5] =   4.83332200e+03, chi2 =   1.14344785e+03, n_iter=       8 
+alpha[ 6] =   2.54240158e+03, chi2 =   5.24778739e+02, n_iter=       9 
+alpha[ 7] =   1.33734227e+03, chi2 =   2.39008349e+02, n_iter=      10 
+alpha[ 8] =   7.03462567e+02, chi2 =   1.08100708e+02, n_iter=      13 
+alpha[ 9] =   3.70032112e+02, chi2 =   4.78966906e+01, n_iter=      15 
+alpha[10] =   1.94642572e+02, chi2 =   2.06875581e+01, n_iter=      17 
+alpha[11] =   1.02384982e+02, chi2 =   9.00867342e+00, n_iter=      19 
+alpha[12] =   5.38560724e+01, chi2 =   4.33872852e+00, n_iter=      20 
+alpha[13] =   2.83291210e+01, chi2 =   2.60234958e+00, n_iter=      21 
+alpha[14] =   1.49015526e+01, chi2 =   1.99101443e+00, n_iter=      23 
+alpha[15] =   7.83844547e+00, chi2 =   1.77257795e+00, n_iter=      33 
+alpha[16] =   4.12314267e+00, chi2 =   1.67756099e+00, n_iter=      52 
+alpha[17] =   2.16883635e+00, chi2 =   1.61675019e+00, n_iter=      79 
+alpha[18] =   1.14084122e+00, chi2 =   1.56622429e+00, n_iter=     129 
+alpha[19] =   6.00100000e-01, chi2 =   1.52414341e+00, n_iter=     193 
+MaxEnt loop finished in 0:01:54.081021
+2024-09-19 23:37:58.071359
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 3.291081795090077e-05
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   4.87702173e+04, n_iter=      35 
+alpha[ 1] =   6.31323628e+04, chi2 =   2.68516779e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   1.44629563e+04, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   7.58232105e+03, n_iter=       8 
+alpha[ 4] =   9.18855687e+03, chi2 =   3.86546472e+03, n_iter=       9 
+alpha[ 5] =   4.83332200e+03, chi2 =   1.91729405e+03, n_iter=      11 
+alpha[ 6] =   2.54240158e+03, chi2 =   9.25365251e+02, n_iter=      13 
+alpha[ 7] =   1.33734227e+03, chi2 =   4.34251319e+02, n_iter=      15 
+alpha[ 8] =   7.03462567e+02, chi2 =   1.98311484e+02, n_iter=      18 
+alpha[ 9] =   3.70032112e+02, chi2 =   8.89402257e+01, n_iter=      20 
+alpha[10] =   1.94642572e+02, chi2 =   3.98725569e+01, n_iter=      23 
+alpha[11] =   1.02384982e+02, chi2 =   1.76853247e+01, n_iter=      54 
+alpha[12] =   5.38560724e+01, chi2 =   7.58168199e+00, n_iter=      40 
+alpha[13] =   2.83291210e+01, chi2 =   3.16971600e+00, n_iter=      39 
+alpha[14] =   1.49015526e+01, chi2 =   1.29888368e+00, n_iter=      45 
+alpha[15] =   7.83844547e+00, chi2 =   5.22021802e-01, n_iter=      52 
+alpha[16] =   4.12314267e+00, chi2 =   2.06296251e-01, n_iter=      63 
+alpha[17] =   2.16883635e+00, chi2 =   7.92703990e-02, n_iter=     208 
+alpha[18] =   1.14084122e+00, chi2 =   3.01413643e-02, n_iter=      91 
+alpha[19] =   6.00100000e-01, chi2 =   1.20568957e-02, n_iter=     118 
+MaxEnt loop finished in 0:02:24.299347
+2024-09-19 23:43:45.090617
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 2.032894371978343
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   3.87348846e+04, n_iter=      38 
+alpha[ 1] =   6.31323628e+04, chi2 =   2.05505797e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   1.04640850e+04, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   5.13021699e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   2.44897967e+03, n_iter=       7 
+alpha[ 5] =   4.83332200e+03, chi2 =   1.14373547e+03, n_iter=       8 
+alpha[ 6] =   2.54240158e+03, chi2 =   5.24900665e+02, n_iter=       9 
+alpha[ 7] =   1.33734227e+03, chi2 =   2.39050514e+02, n_iter=      10 
+alpha[ 8] =   7.03462567e+02, chi2 =   1.08112273e+02, n_iter=      13 
+alpha[ 9] =   3.70032112e+02, chi2 =   4.78978962e+01, n_iter=      15 
+alpha[10] =   1.94642572e+02, chi2 =   2.06844562e+01, n_iter=      17 
+alpha[11] =   1.02384982e+02, chi2 =   9.00332464e+00, n_iter=      19 
+alpha[12] =   5.38560724e+01, chi2 =   4.33225912e+00, n_iter=      20 
+alpha[13] =   2.83291210e+01, chi2 =   2.59541170e+00, n_iter=      21 
+alpha[14] =   1.49015526e+01, chi2 =   1.98394022e+00, n_iter=      23 
+alpha[15] =   7.83844547e+00, chi2 =   1.76553770e+00, n_iter=      33 
+alpha[16] =   4.12314267e+00, chi2 =   1.67065297e+00, n_iter=      52 
+alpha[17] =   2.16883635e+00, chi2 =   1.61001425e+00, n_iter=      79 
+alpha[18] =   1.14084122e+00, chi2 =   1.55964174e+00, n_iter=     129 
+alpha[19] =   6.00100000e-01, chi2 =   1.51765675e+00, n_iter=     193 
+MaxEnt loop finished in 0:01:54.148234
+2024-09-19 23:49:02.177754
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 9.470767124853447e-05
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   4.55671700e+04, n_iter=      35 
+alpha[ 1] =   6.31323628e+04, chi2 =   2.31963451e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   1.16039507e+04, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   5.67137101e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   2.69401851e+03, n_iter=       8 
+alpha[ 5] =   4.83332200e+03, chi2 =   1.24236832e+03, n_iter=      10 
+alpha[ 6] =   2.54240158e+03, chi2 =   5.54207289e+02, n_iter=      11 
+alpha[ 7] =   1.33734227e+03, chi2 =   2.37133805e+02, n_iter=      13 
+alpha[ 8] =   7.03462567e+02, chi2 =   9.62269520e+01, n_iter=      14 
+alpha[ 9] =   3.70032112e+02, chi2 =   3.67442636e+01, n_iter=      15 
+alpha[10] =   1.94642572e+02, chi2 =   1.32897485e+01, n_iter=      16 
+alpha[11] =   1.02384982e+02, chi2 =   4.67602364e+00, n_iter=      19 
+alpha[12] =   5.38560724e+01, chi2 =   1.66026446e+00, n_iter=      26 
+alpha[13] =   2.83291210e+01, chi2 =   6.10555321e-01, n_iter=      37 
+alpha[14] =   1.49015526e+01, chi2 =   2.44741750e-01, n_iter=      34 
+alpha[15] =   7.83844547e+00, chi2 =   1.15039059e-01, n_iter=      34 
+alpha[16] =   4.12314267e+00, chi2 =   6.42670001e-02, n_iter=      39 
+alpha[17] =   2.16883635e+00, chi2 =   4.03162195e-02, n_iter=      45 
+alpha[18] =   1.14084122e+00, chi2 =   2.65920252e-02, n_iter=      56 
+alpha[19] =   6.00100000e-01, chi2 =   1.77266530e-02, n_iter=      78 
+MaxEnt loop finished in 0:01:25.781874
+2024-09-19 23:53:51.460451
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 958.5677013296632
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   2.30416533e+04, n_iter=     110 
+alpha[ 1] =   6.31323628e+04, chi2 =   1.14389308e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   5.75725211e+03, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   3.18877151e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   2.06489936e+03, n_iter=       5 
+alpha[ 5] =   4.83332200e+03, chi2 =   1.56352665e+03, n_iter=       5 
+alpha[ 6] =   2.54240158e+03, chi2 =   1.32398163e+03, n_iter=       7 
+alpha[ 7] =   1.33734227e+03, chi2 =   1.20224642e+03, n_iter=       9 
+alpha[ 8] =   7.03462567e+02, chi2 =   1.14025117e+03, n_iter=      10 
+alpha[ 9] =   3.70032112e+02, chi2 =   1.10993443e+03, n_iter=      12 
+alpha[10] =   1.94642572e+02, chi2 =   1.09585339e+03, n_iter=      14 
+alpha[11] =   1.02384982e+02, chi2 =   1.08939380e+03, n_iter=      17 
+alpha[12] =   5.38560724e+01, chi2 =   1.08596179e+03, n_iter=      27 
+alpha[13] =   2.83291210e+01, chi2 =   1.08351674e+03, n_iter=      45 
+alpha[14] =   1.49015526e+01, chi2 =   1.08142029e+03, n_iter=      71 
+alpha[15] =   7.83844547e+00, chi2 =   1.07959970e+03, n_iter=     102 
+alpha[16] =   4.12314267e+00, chi2 =   1.07817668e+03, n_iter=     145 
+alpha[17] =   2.16883635e+00, chi2 =   1.07720253e+03, n_iter=     191 
+alpha[18] =   1.14084122e+00, chi2 =   1.07659847e+03, n_iter=     248 
+alpha[19] =   6.00100000e-01, chi2 =   1.07623312e+03, n_iter=     332 
+MaxEnt loop finished in 0:03:29.545807
+2024-09-20 00:00:44.638157
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 193.63860605345292
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   3.06926746e+04, n_iter=      44 
+alpha[ 1] =   6.31323628e+04, chi2 =   1.25735792e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   5.05246532e+03, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   2.10345427e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   9.88806827e+02, n_iter=       5 
+alpha[ 5] =   4.83332200e+03, chi2 =   5.79450695e+02, n_iter=       5 
+alpha[ 6] =   2.54240158e+03, chi2 =   4.33308556e+02, n_iter=       4 
+alpha[ 7] =   1.33734227e+03, chi2 =   3.82416145e+02, n_iter=       4 
+alpha[ 8] =   7.03462567e+02, chi2 =   3.64711865e+02, n_iter=       4 
+alpha[ 9] =   3.70032112e+02, chi2 =   3.57887473e+02, n_iter=       5 
+alpha[10] =   1.94642572e+02, chi2 =   3.54237388e+02, n_iter=      10 
+alpha[11] =   1.02384982e+02, chi2 =   3.51468548e+02, n_iter=      15 
+alpha[12] =   5.38560724e+01, chi2 =   3.49263340e+02, n_iter=      22 
+alpha[13] =   2.83291210e+01, chi2 =   3.47675412e+02, n_iter=      28 
+alpha[14] =   1.49015526e+01, chi2 =   3.46602842e+02, n_iter=      34 
+alpha[15] =   7.83844547e+00, chi2 =   3.45886865e+02, n_iter=      43 
+alpha[16] =   4.12314267e+00, chi2 =   3.45392456e+02, n_iter=      59 
+alpha[17] =   2.16883635e+00, chi2 =   3.45033510e+02, n_iter=      97 
+alpha[18] =   1.14084122e+00, chi2 =   3.44765556e+02, n_iter=     185 
+alpha[19] =   6.00100000e-01, chi2 =   3.44572110e+02, n_iter=     215 
+MaxEnt loop finished in 0:02:07.313248
+2024-09-20 00:06:16.701440
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 5.47207986680421e-07
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   3.78882031e+04, n_iter=      59 
+alpha[ 1] =   6.31323628e+04, chi2 =   1.39747920e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   4.98719363e+03, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   1.78894331e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   6.72285317e+02, n_iter=       5 
+alpha[ 5] =   4.83332200e+03, chi2 =   2.72775265e+02, n_iter=       5 
+alpha[ 6] =   2.54240158e+03, chi2 =   1.21355921e+02, n_iter=       5 
+alpha[ 7] =   1.33734227e+03, chi2 =   5.95442130e+01, n_iter=       5 
+alpha[ 8] =   7.03462567e+02, chi2 =   3.20430263e+01, n_iter=       8 
+alpha[ 9] =   3.70032112e+02, chi2 =   1.85493310e+01, n_iter=      10 
+alpha[10] =   1.94642572e+02, chi2 =   1.11996568e+01, n_iter=      16 
+alpha[11] =   1.02384982e+02, chi2 =   6.81085345e+00, n_iter=      23 
+alpha[12] =   5.38560724e+01, chi2 =   4.03206080e+00, n_iter=      30 
+alpha[13] =   2.83291210e+01, chi2 =   2.25777220e+00, n_iter=      40 
+alpha[14] =   1.49015526e+01, chi2 =   1.18019084e+00, n_iter=      52 
+alpha[15] =   7.83844547e+00, chi2 =   5.82728518e-01, n_iter=      64 
+alpha[16] =   4.12314267e+00, chi2 =   2.72581993e-01, n_iter=     175 
+alpha[17] =   2.16883635e+00, chi2 =   1.12323863e-01, n_iter=     126 
+alpha[18] =   1.14084122e+00, chi2 =   4.33584185e-02, n_iter=     131 
+alpha[19] =   6.00100000e-01, chi2 =   1.61096340e-02, n_iter=     124 
+MaxEnt loop finished in 0:02:23.077462
+2024-09-20 00:12:07.296111
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 5.638131575007186e-07
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   3.78872095e+04, n_iter=      59 
+alpha[ 1] =   6.31323628e+04, chi2 =   1.39744212e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   4.98706298e+03, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   1.78888897e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   6.72256567e+02, n_iter=       5 
+alpha[ 5] =   4.83332200e+03, chi2 =   2.72759649e+02, n_iter=       5 
+alpha[ 6] =   2.54240158e+03, chi2 =   1.21347551e+02, n_iter=       5 
+alpha[ 7] =   1.33734227e+03, chi2 =   5.95384088e+01, n_iter=       5 
+alpha[ 8] =   7.03462567e+02, chi2 =   3.20376540e+01, n_iter=       8 
+alpha[ 9] =   3.70032112e+02, chi2 =   1.85442902e+01, n_iter=      10 
+alpha[10] =   1.94642572e+02, chi2 =   1.11954218e+01, n_iter=      15 
+alpha[11] =   1.02384982e+02, chi2 =   6.80777112e+00, n_iter=      23 
+alpha[12] =   5.38560724e+01, chi2 =   4.03024233e+00, n_iter=      31 
+alpha[13] =   2.83291210e+01, chi2 =   2.25713184e+00, n_iter=      40 
+alpha[14] =   1.49015526e+01, chi2 =   1.18047186e+00, n_iter=      52 
+alpha[15] =   7.83844547e+00, chi2 =   5.83534227e-01, n_iter=      65 
+alpha[16] =   4.12314267e+00, chi2 =   2.72638264e-01, n_iter=     183 
+alpha[17] =   2.16883635e+00, chi2 =   1.12332023e-01, n_iter=     124 
+alpha[18] =   1.14084122e+00, chi2 =   4.33580658e-02, n_iter=     132 
+alpha[19] =   6.00100000e-01, chi2 =   1.61073705e-02, n_iter=     122 
+MaxEnt loop finished in 0:02:23.828293
+2024-09-20 00:17:58.208171
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 1.7965831570654825e-06
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   3.94851566e+04, n_iter=      56 
+alpha[ 1] =   6.31323628e+04, chi2 =   1.53808272e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   6.14319600e+03, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   2.64692959e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   1.23526970e+03, n_iter=       7 
+alpha[ 5] =   4.83332200e+03, chi2 =   5.92545314e+02, n_iter=       8 
+alpha[ 6] =   2.54240158e+03, chi2 =   2.78453262e+02, n_iter=       9 
+alpha[ 7] =   1.33734227e+03, chi2 =   1.28155795e+02, n_iter=       9 
+alpha[ 8] =   7.03462567e+02, chi2 =   5.93547621e+01, n_iter=      12 
+alpha[ 9] =   3.70032112e+02, chi2 =   2.74625312e+01, n_iter=      21 
+alpha[10] =   1.94642572e+02, chi2 =   1.22920343e+01, n_iter=      22 
+alpha[11] =   1.02384982e+02, chi2 =   5.39772602e+00, n_iter=      23 
+alpha[12] =   5.38560724e+01, chi2 =   2.35541867e+00, n_iter=      26 
+alpha[13] =   2.83291210e+01, chi2 =   1.02449895e+00, n_iter=      29 
+alpha[14] =   1.49015526e+01, chi2 =   4.41087532e-01, n_iter=      35 
+alpha[15] =   7.83844547e+00, chi2 =   1.87793746e-01, n_iter=      38 
+alpha[16] =   4.12314267e+00, chi2 =   7.95987665e-02, n_iter=      50 
+alpha[17] =   2.16883635e+00, chi2 =   3.32662459e-02, n_iter=      61 
+alpha[18] =   1.14084122e+00, chi2 =   1.37528428e-02, n_iter=      66 
+alpha[19] =   6.00100000e-01, chi2 =   5.65353777e-03, n_iter=      74 
+MaxEnt loop finished in 0:01:35.735364
+2024-09-20 00:22:55.110471
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 0.0013037695416389867
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   3.49492348e+04, n_iter=      89 
+alpha[ 1] =   6.31323628e+04, chi2 =   1.49376452e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   6.49033412e+03, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   2.92452870e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   1.33987913e+03, n_iter=       5 
+alpha[ 5] =   4.83332200e+03, chi2 =   6.02381385e+02, n_iter=       9 
+alpha[ 6] =   2.54240158e+03, chi2 =   2.61104041e+02, n_iter=      11 
+alpha[ 7] =   1.33734227e+03, chi2 =   1.10150287e+02, n_iter=      13 
+alpha[ 8] =   7.03462567e+02, chi2 =   4.66220054e+01, n_iter=      14 
+alpha[ 9] =   3.70032112e+02, chi2 =   2.04624622e+01, n_iter=      15 
+alpha[10] =   1.94642572e+02, chi2 =   9.45227958e+00, n_iter=      16 
+alpha[11] =   1.02384982e+02, chi2 =   4.58129913e+00, n_iter=      19 
+alpha[12] =   5.38560724e+01, chi2 =   2.31573647e+00, n_iter=      24 
+alpha[13] =   2.83291210e+01, chi2 =   1.22257085e+00, n_iter=      30 
+alpha[14] =   1.49015526e+01, chi2 =   6.73559337e-01, n_iter=      37 
+alpha[15] =   7.83844547e+00, chi2 =   3.76590319e-01, n_iter=      45 
+alpha[16] =   4.12314267e+00, chi2 =   2.02210415e-01, n_iter=      61 
+alpha[17] =   2.16883635e+00, chi2 =   9.92779826e-02, n_iter=      80 
+alpha[18] =   1.14084122e+00, chi2 =   4.40114893e-02, n_iter=      99 
+alpha[19] =   6.00100000e-01, chi2 =   1.82864752e-02, n_iter=     117 
+MaxEnt loop finished in 0:01:55.176728
+2024-09-20 00:28:12.422800
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 0.0013429921889756607
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   5.51287088e+04, n_iter=      49 
+alpha[ 1] =   6.31323628e+04, chi2 =   2.66516909e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   1.21747314e+04, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   5.27392804e+03, n_iter=       8 
+alpha[ 4] =   9.18855687e+03, chi2 =   2.18395951e+03, n_iter=       9 
+alpha[ 5] =   4.83332200e+03, chi2 =   8.82156147e+02, n_iter=      10 
+alpha[ 6] =   2.54240158e+03, chi2 =   3.63134031e+02, n_iter=      10 
+alpha[ 7] =   1.33734227e+03, chi2 =   1.62512379e+02, n_iter=      12 
+alpha[ 8] =   7.03462567e+02, chi2 =   8.23843500e+01, n_iter=      14 
+alpha[ 9] =   3.70032112e+02, chi2 =   4.60450510e+01, n_iter=      17 
+alpha[10] =   1.94642572e+02, chi2 =   2.65232371e+01, n_iter=      22 
+alpha[11] =   1.02384982e+02, chi2 =   1.48836019e+01, n_iter=      29 
+alpha[12] =   5.38560724e+01, chi2 =   7.89751365e+00, n_iter=      37 
+alpha[13] =   2.83291210e+01, chi2 =   3.92633065e+00, n_iter=      49 
+alpha[14] =   1.49015526e+01, chi2 =   1.83056948e+00, n_iter=      62 
+alpha[15] =   7.83844547e+00, chi2 =   8.00158989e-01, n_iter=      75 
+alpha[16] =   4.12314267e+00, chi2 =   3.26426629e-01, n_iter=      87 
+alpha[17] =   2.16883635e+00, chi2 =   1.24884535e-01, n_iter=      93 
+alpha[18] =   1.14084122e+00, chi2 =   4.65990962e-02, n_iter=      90 
+alpha[19] =   6.00100000e-01, chi2 =   1.87275043e-02, n_iter=      82 
+MaxEnt loop finished in 0:02:09.321512
+2024-09-20 00:33:46.155804
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 3.322981960025354e-05
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   4.87815132e+04, n_iter=      35 
+alpha[ 1] =   6.31323628e+04, chi2 =   2.68557773e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   1.44643431e+04, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   7.58273902e+03, n_iter=       8 
+alpha[ 4] =   9.18855687e+03, chi2 =   3.86555971e+03, n_iter=       9 
+alpha[ 5] =   4.83332200e+03, chi2 =   1.91729675e+03, n_iter=      11 
+alpha[ 6] =   2.54240158e+03, chi2 =   9.25348729e+02, n_iter=      13 
+alpha[ 7] =   1.33734227e+03, chi2 =   4.34237943e+02, n_iter=      15 
+alpha[ 8] =   7.03462567e+02, chi2 =   1.98306769e+02, n_iter=      18 
+alpha[ 9] =   3.70032112e+02, chi2 =   8.89423604e+01, n_iter=      20 
+alpha[10] =   1.94642572e+02, chi2 =   3.98763855e+01, n_iter=      23 
+alpha[11] =   1.02384982e+02, chi2 =   1.76846148e+01, n_iter=      55 
+alpha[12] =   5.38560724e+01, chi2 =   7.58067960e+00, n_iter=      40 
+alpha[13] =   2.83291210e+01, chi2 =   3.16900712e+00, n_iter=      39 
+alpha[14] =   1.49015526e+01, chi2 =   1.29847897e+00, n_iter=      45 
+alpha[15] =   7.83844547e+00, chi2 =   5.21873599e-01, n_iter=      52 
+alpha[16] =   4.12314267e+00, chi2 =   2.06320165e-01, n_iter=      63 
+alpha[17] =   2.16883635e+00, chi2 =   7.92383674e-02, n_iter=     204 
+alpha[18] =   1.14084122e+00, chi2 =   3.01314909e-02, n_iter=      90 
+alpha[19] =   6.00100000e-01, chi2 =   1.20499065e-02, n_iter=     118 
+MaxEnt loop finished in 0:02:18.674643
+2024-09-20 00:39:29.049121
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 9.441106656231671e-05
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   4.55607696e+04, n_iter=      35 
+alpha[ 1] =   6.31323628e+04, chi2 =   2.31945746e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   1.16038315e+04, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   5.67158520e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   2.69426821e+03, n_iter=       8 
+alpha[ 5] =   4.83332200e+03, chi2 =   1.24259906e+03, n_iter=      10 
+alpha[ 6] =   2.54240158e+03, chi2 =   5.54384526e+02, n_iter=      11 
+alpha[ 7] =   1.33734227e+03, chi2 =   2.37244558e+02, n_iter=      13 
+alpha[ 8] =   7.03462567e+02, chi2 =   9.62794950e+01, n_iter=      14 
+alpha[ 9] =   3.70032112e+02, chi2 =   3.67599837e+01, n_iter=      15 
+alpha[10] =   1.94642572e+02, chi2 =   1.32895031e+01, n_iter=      16 
+alpha[11] =   1.02384982e+02, chi2 =   4.67251594e+00, n_iter=      19 
+alpha[12] =   5.38560724e+01, chi2 =   1.65841644e+00, n_iter=      26 
+alpha[13] =   2.83291210e+01, chi2 =   6.10217495e-01, n_iter=      36 
+alpha[14] =   1.49015526e+01, chi2 =   2.44624948e-01, n_iter=      34 
+alpha[15] =   7.83844547e+00, chi2 =   1.14956462e-01, n_iter=      34 
+alpha[16] =   4.12314267e+00, chi2 =   6.42145167e-02, n_iter=      39 
+alpha[17] =   2.16883635e+00, chi2 =   4.02848638e-02, n_iter=      45 
+alpha[18] =   1.14084122e+00, chi2 =   2.65696967e-02, n_iter=      56 
+alpha[19] =   6.00100000e-01, chi2 =   1.77093804e-02, n_iter=      77 
+MaxEnt loop finished in 0:01:25.313934
+2024-09-20 00:44:17.448572
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 2.045813629977709
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   3.87335258e+04, n_iter=      38 
+alpha[ 1] =   6.31323628e+04, chi2 =   2.05486371e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   1.04623451e+04, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   5.12909968e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   2.44838517e+03, n_iter=       7 
+alpha[ 5] =   4.83332200e+03, chi2 =   1.14344784e+03, n_iter=       8 
+alpha[ 6] =   2.54240158e+03, chi2 =   5.24778731e+02, n_iter=       9 
+alpha[ 7] =   1.33734227e+03, chi2 =   2.39008345e+02, n_iter=      10 
+alpha[ 8] =   7.03462567e+02, chi2 =   1.08100707e+02, n_iter=      13 
+alpha[ 9] =   3.70032112e+02, chi2 =   4.78966907e+01, n_iter=      15 
+alpha[10] =   1.94642572e+02, chi2 =   2.06875586e+01, n_iter=      17 
+alpha[11] =   1.02384982e+02, chi2 =   9.00867371e+00, n_iter=      19 
+alpha[12] =   5.38560724e+01, chi2 =   4.33872863e+00, n_iter=      20 
+alpha[13] =   2.83291210e+01, chi2 =   2.60234960e+00, n_iter=      21 
+alpha[14] =   1.49015526e+01, chi2 =   1.99101440e+00, n_iter=      23 
+alpha[15] =   7.83844547e+00, chi2 =   1.77257792e+00, n_iter=      33 
+alpha[16] =   4.12314267e+00, chi2 =   1.67756096e+00, n_iter=      52 
+alpha[17] =   2.16883635e+00, chi2 =   1.61675017e+00, n_iter=      79 
+alpha[18] =   1.14084122e+00, chi2 =   1.56622427e+00, n_iter=     129 
+alpha[19] =   6.00100000e-01, chi2 =   1.52414338e+00, n_iter=     193 
+MaxEnt loop finished in 0:01:54.083543
+2024-09-20 00:49:31.482414
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 3.252811342279487e-05
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   4.87702174e+04, n_iter=      35 
+alpha[ 1] =   6.31323628e+04, chi2 =   2.68516779e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   1.44629563e+04, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   7.58232105e+03, n_iter=       8 
+alpha[ 4] =   9.18855687e+03, chi2 =   3.86546472e+03, n_iter=       9 
+alpha[ 5] =   4.83332200e+03, chi2 =   1.91729405e+03, n_iter=      11 
+alpha[ 6] =   2.54240158e+03, chi2 =   9.25365250e+02, n_iter=      13 
+alpha[ 7] =   1.33734227e+03, chi2 =   4.34251319e+02, n_iter=      15 
+alpha[ 8] =   7.03462567e+02, chi2 =   1.98311483e+02, n_iter=      18 
+alpha[ 9] =   3.70032112e+02, chi2 =   8.89402252e+01, n_iter=      20 
+alpha[10] =   1.94642572e+02, chi2 =   3.98725565e+01, n_iter=      23 
+alpha[11] =   1.02384982e+02, chi2 =   1.76853246e+01, n_iter=      54 
+alpha[12] =   5.38560724e+01, chi2 =   7.58168197e+00, n_iter=      40 
+alpha[13] =   2.83291210e+01, chi2 =   3.16971601e+00, n_iter=      39 
+alpha[14] =   1.49015526e+01, chi2 =   1.29888369e+00, n_iter=      45 
+alpha[15] =   7.83844547e+00, chi2 =   5.22021805e-01, n_iter=      52 
+alpha[16] =   4.12314267e+00, chi2 =   2.06296236e-01, n_iter=      63 
+alpha[17] =   2.16883635e+00, chi2 =   7.92703986e-02, n_iter=     209 
+alpha[18] =   1.14084122e+00, chi2 =   3.01413648e-02, n_iter=      91 
+alpha[19] =   6.00100000e-01, chi2 =   1.20568936e-02, n_iter=     118 
+MaxEnt loop finished in 0:02:24.700757
+2024-09-20 00:55:21.236563
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 2.0343787661229467
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   3.87348839e+04, n_iter=      38 
+alpha[ 1] =   6.31323628e+04, chi2 =   2.05505793e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   1.04640849e+04, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   5.13021694e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   2.44897965e+03, n_iter=       7 
+alpha[ 5] =   4.83332200e+03, chi2 =   1.14373546e+03, n_iter=       8 
+alpha[ 6] =   2.54240158e+03, chi2 =   5.24900657e+02, n_iter=       9 
+alpha[ 7] =   1.33734227e+03, chi2 =   2.39050510e+02, n_iter=      10 
+alpha[ 8] =   7.03462567e+02, chi2 =   1.08112272e+02, n_iter=      13 
+alpha[ 9] =   3.70032112e+02, chi2 =   4.78978963e+01, n_iter=      15 
+alpha[10] =   1.94642572e+02, chi2 =   2.06844565e+01, n_iter=      17 
+alpha[11] =   1.02384982e+02, chi2 =   9.00332490e+00, n_iter=      19 
+alpha[12] =   5.38560724e+01, chi2 =   4.33225924e+00, n_iter=      20 
+alpha[13] =   2.83291210e+01, chi2 =   2.59541172e+00, n_iter=      21 
+alpha[14] =   1.49015526e+01, chi2 =   1.98394020e+00, n_iter=      23 
+alpha[15] =   7.83844547e+00, chi2 =   1.76553767e+00, n_iter=      33 
+alpha[16] =   4.12314267e+00, chi2 =   1.67065294e+00, n_iter=      52 
+alpha[17] =   2.16883635e+00, chi2 =   1.61001422e+00, n_iter=      79 
+alpha[18] =   1.14084122e+00, chi2 =   1.55964176e+00, n_iter=     128 
+alpha[19] =   6.00100000e-01, chi2 =   1.51765673e+00, n_iter=     193 
+MaxEnt loop finished in 0:01:53.983897
+2024-09-20 01:00:40.008198
+MaxEnt run
+TRIQS application maxent
+Copyright(C) 2018 Gernot J. Kraberger
+Copyright(C) 2018 Simons Foundation
+Authors: Gernot J. Kraberger and Manuel Zingl
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistributeit under certain conditions; see file LICENSE.
+Please cite this code and the appropriate original papers (see documentation).
+
+Minimal chi2: 9.55577717052047e-05
+scaling alpha by a factor 6001 (number of data points)
+alpha[ 0] =   1.20020000e+05, chi2 =   4.55671700e+04, n_iter=      35 
+alpha[ 1] =   6.31323628e+04, chi2 =   2.31963451e+04, n_iter=       5 
+alpha[ 2] =   3.32085922e+04, chi2 =   1.16039507e+04, n_iter=       5 
+alpha[ 3] =   1.74682294e+04, chi2 =   5.67137102e+03, n_iter=       5 
+alpha[ 4] =   9.18855687e+03, chi2 =   2.69401851e+03, n_iter=       8 
+alpha[ 5] =   4.83332200e+03, chi2 =   1.24236832e+03, n_iter=      10 
+alpha[ 6] =   2.54240158e+03, chi2 =   5.54207291e+02, n_iter=      11 
+alpha[ 7] =   1.33734227e+03, chi2 =   2.37133807e+02, n_iter=      13 
+alpha[ 8] =   7.03462567e+02, chi2 =   9.62269528e+01, n_iter=      14 
+alpha[ 9] =   3.70032112e+02, chi2 =   3.67442638e+01, n_iter=      15 
+alpha[10] =   1.94642572e+02, chi2 =   1.32897484e+01, n_iter=      16 
+alpha[11] =   1.02384982e+02, chi2 =   4.67602349e+00, n_iter=      19 
+alpha[12] =   5.38560724e+01, chi2 =   1.66026437e+00, n_iter=      26 
+alpha[13] =   2.83291210e+01, chi2 =   6.10555300e-01, n_iter=      37 
+alpha[14] =   1.49015526e+01, chi2 =   2.44741748e-01, n_iter=      34 
+alpha[15] =   7.83844547e+00, chi2 =   1.15039059e-01, n_iter=      34 
+alpha[16] =   4.12314267e+00, chi2 =   6.42670008e-02, n_iter=      39 
+alpha[17] =   2.16883635e+00, chi2 =   4.03162207e-02, n_iter=      45 
+alpha[18] =   1.14084122e+00, chi2 =   2.65920249e-02, n_iter=      56 
+alpha[19] =   6.00100000e-01, chi2 =   1.77266541e-02, n_iter=      78 
+MaxEnt loop finished in 0:01:25.742032
+Authorization required, but no authorization protocol specified
+Authorization required, but no authorization protocol specified
+Starting run with 24 MPI rank(s) at : 2024-09-20 01:02:26.736301
+HDF5-DIAG: Error detected in HDF5 (1.10.7) thread 1:
+  #000: ../../../src/H5F.c line 429 in H5Fopen(): unable to open file
+    major: File accessibility
+    minor: Unable to open file
+  #001: ../../../src/H5Fint.c line 1644 in H5F_open(): unable to open file: time = Fri Sep 20 01:02:26 2024
+, name = 'nsp.h5', tent_flags = 0
+    major: File accessibility
+    minor: Unable to open file
+  #002: ../../../src/H5FD.c line 741 in H5FD_open(): open failed
+    major: Virtual File Layer
+    minor: Unable to initialize object
+  #003: ../../../src/H5FDsec2.c line 360 in H5FD__sec2_open(): unable to open file: name = 'nsp.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0
+    major: File accessibility
+    minor: Unable to open file
+Traceback (most recent call last):
+  File "/home/yamamoto/physics/triqs-work/dft/w90/NdNiO2/sampling_1e8/dmft.py", line 24, in <module>
+    SK = SumkDFT(
+  File "/home/yamamoto/apps/triqs/triqs.build/lib/python3.10/site-packages/triqs_dft_tools/sumk_dft.py", line 134, in __init__
+    self.subgroup_present, self.values_not_read = self.read_input_from_hdf(
+  File "/home/yamamoto/apps/triqs/triqs.build/lib/python3.10/site-packages/triqs_dft_tools/sumk_dft.py", line 245, in read_input_from_hdf
+    with HDFArchive(self.hdf_file, 'r') as ar:
+  File "/home/yamamoto/apps/triqs/triqs.build/lib/python3.10/site-packages/h5/archive.py", line 383, in __init__
+    self._init_root(LocalFileName, open_flag)
+  File "/home/yamamoto/apps/triqs/triqs.build/lib/python3.10/site-packages/h5/archive_basic_layer.py", line 46, in _init_root
+    fich = h5.File(descriptor, open_flag)
+RuntimeError: .. Error occurred at Fri Sep 20 01:02:26 2024
+
+.. Error .. in calling C++ overload of constructor :
+.. (no C++ name)(std::string name, char mode) -> 
+.. C++ error was : 
+Opening/Creating the file nsp.h5 failed
+Cannot open the HDF file nsp.h5
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 7 with PID 0 on node yamamoto-home exited on signal 15 (Terminated).
+--------------------------------------------------------------------------
