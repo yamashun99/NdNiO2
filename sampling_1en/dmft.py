@@ -125,7 +125,12 @@ DC_type = 1
 # DC_value = 59.0
 
 # Prepare hdf file and and check for previous iterations
-n_iterations = 6
+n_iterations = 10
+n_iterations_min = 2
+
+occ_conv_crit = 1e-2
+g0_conv_crit = 1e-2
+gimp_conv_crit = 1e-2
 
 iteration_offset = 0
 if mpi.is_master_node():
@@ -175,7 +180,7 @@ SK.chemical_potential = mpi.bcast(SK.chemical_potential)
 # Calc the first G0
 SK.symm_deg_gf(S.Sigma_iw, ish=0)
 SK.put_Sigma(Sigma_imp=[S.Sigma_iw])
-SK.calc_mu(precision=0.001)
+SK.calc_mu(precision=0.0001)
 S.G_iw << SK.extract_G_loc()[0]
 SK.symm_deg_gf(S.G_iw, ish=0)
 
@@ -258,6 +263,27 @@ for it in range(iteration_offset, iteration_offset + n_iterations):
                 )  # ヘッダー行を追加
 
             mpi.report(f"Data from iteration {it} appended to {csv_filename}")
+
+    conv = False  # 初期化
+    conv = mpi.bcast(conv)  # その後、ブロードキャスト
+
+    if mpi.is_master_node():
+        conv = True
+        data = extract_data_from_h5(filename + ".h5")
+        if it < n_iterations_min:
+            conv = False
+        elif data["density_matrix_diff"][-1] > occ_conv_crit:
+            conv = False
+        elif data["G_diff"][-1] > g0_conv_crit:
+            conv = False
+        elif data["Gimp_diff"][-1] > gimp_conv_crit:
+            conv = False
+        elif any(n > occ_conv_crit for n in data["orbital_resolved_dm_diff"][-1]):
+            conv = False
+    conv = mpi.bcast(conv)
+
+    if conv:
+        break
 
 
 if mpi.is_master_node():

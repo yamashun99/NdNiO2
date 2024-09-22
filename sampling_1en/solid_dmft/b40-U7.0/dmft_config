@@ -2,6 +2,8 @@
 seedname = "nsp"
 jobname = "b40-U7.0"
 
+magnetic=true
+
 beta = 40
 n_iw = 251
 n_tau = 5001

@@ -88,11 +88,12 @@ def extract_data_from_h5(filename):
             orbital_resolved_dm_prev = ar["DMFT_results"]["Iterations"][
                 "density_matrix_it" + str(it - 1)
             ]
-            diff = sum(
-                float(np.real(orbital_resolved_dm_it[key]))
-                - float(np.real(orbital_resolved_dm_prev[key]))
-                for key in orbital_resolved_dm_it
-            )
+            diff = []
+            for key in orbital_resolved_dm_it:
+                diff.append(
+                    float(np.real(orbital_resolved_dm_it[key]))
+                    - float(np.real(orbital_resolved_dm_prev[key]))
+                )
             orbital_resolved_dm_diff.append(diff)
 
     return {
